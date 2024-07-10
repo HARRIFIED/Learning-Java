@@ -10,5 +10,9 @@ public class Main {
         Factorial num = new Factorial(5);
         int factorial = num.getFactorial();
         System.out.println(factorial);
+
+        //Convert decimal to binary
+        ConvertNumToBinary dec = new ConvertNumToBinary(17);
+        dec.convert();
     }
 }
