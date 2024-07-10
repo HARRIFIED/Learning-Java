@@ -8,7 +8,7 @@ public class ConvertNumToBinary {
 
     public void convert() {
         int i = 0;
-        int[] binaryArr = new int[10];
+        int[] binaryArr = new int[1000];
         while (num > 0) {
             binaryArr[i] = num % 2;
             num = num / 2;
